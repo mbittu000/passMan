@@ -1,0 +1,6 @@
+{
+  "platforms": ["android"],
+  "android": {
+    "modules": ["dev.passman.argon2.PassmanArgon2Module"]
+  }
+}

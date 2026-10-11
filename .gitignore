@@ -1,0 +1,62 @@
+# ── dependencies ──────────────────────────────
+node_modules/
+bun.lockb
+
+# ── Expo / React Native generated ─────────────────
+client/.expo/
+client/dist/
+client/web-build/
+client/android/
+client/ios/
+expo-env.d.ts
+.metro-health-check*
+
+# ── Gradle / native build outputs ─────────────────
+build/
+.gradle/
+local.properties
+*.hprof
+captures/
+
+# ── Go build outputs & caches ─────────────────────
+server/tmp/
+server/bin/
+*.exe
+*.test
+*.out
+
+# ── Runtime databases (contain real credential data — NEVER commit) ──
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# ── Secrets & local env ───────────────────────────
+.env
+.env*.local
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.mobileprovision
+*.p8
+
+# ── OS / IDE ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc build artifacts ──────────────────────────
+.kotlin/
+*.orig.*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+coverage/

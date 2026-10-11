@@ -1,0 +1,10 @@
+{
+  "name": "passman-argon2",
+  "version": "0.1.0",
+  "description": "Native Argon2id key derivation for passMan release builds (Android). Dev builds use pure JS.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "keywords": ["argon2", "expo", "passman"]
+}

@@ -1,0 +1,22 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'dev.passman.argon2'
+version = '0.1.0'
+
+android {
+  namespace "dev.passman.argon2"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+  }
+}
+
+dependencies {
+  // Bouncy Castle provides a well-tested Argon2id implementation
+  // (Argon2BytesGenerator) that runs on every Android API level.
+  implementation "org.bouncycastle:bcprov-jdk18on:1.78.1"
+  testImplementation 'junit:junit:4.13.2'
+}
